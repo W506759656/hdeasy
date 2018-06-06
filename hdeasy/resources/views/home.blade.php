@@ -3,10 +3,8 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2" style="text-align: center;">
-            <div class="panel panel-default" style="text-align: center;width: 80%;">
-                <img style="width: 100%;" src="{{asset('images/rg.jpg')}}" alt="">
-            </div>
+        <div class="panel panel-default" style="text-align: center;width: 80%;">
+            <img style="width: 100%;" src="{{asset('images/rg.jpg')}}" alt="">
         </div>
     </div>
 </div>
