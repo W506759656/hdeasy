@@ -4,8 +4,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <img src="{{asset('images/rg.jpg')}}" alt="">
+            <div class="panel panel-default" style="text-align: center;">
+                <img style="width: 500px;" src="{{asset('images/rg.jpg')}}" alt="">
             </div>
         </div>
     </div>
