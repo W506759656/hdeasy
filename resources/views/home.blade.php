@@ -5,6 +5,7 @@
     <div class="row">
         <div class="panel panel-default" style="text-align: center;width: 100%;">
             <img style="width: 60%;" src="{{asset('images/rg.jpg')}}" alt="">
+            <p>hahaha</p>
         </div>
     </div>
 </div>
