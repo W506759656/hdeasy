@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\Transformers\UserTransformer;
 
 class AuthController extends Controller
 {
@@ -20,7 +19,7 @@ class AuthController extends Controller
     {
         // 验证规则，由于业务需求，这里我更改了一下登录的用户名，使用手机号码登录
         $rules = [
-            'mobile'   => [
+            'email'   => [
                 'required',
                 'exists:users',
             ],
