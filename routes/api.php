@@ -21,6 +21,7 @@ Route::prefix('auth')->group(function($router) {
 
 Route::middleware('refresh.token')->group(function($router) {
     $router->get('index','HomeController@index');
+    $router->get('getAuthenticatedUser','AuthController@getAuthenticatedUser');
 });
 
 
